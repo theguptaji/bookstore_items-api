@@ -14,5 +14,5 @@ func RespondJson(w http.ResponseWriter, StatusCode int, body interface{}) {
 }
 
 func RespondError(w http.ResponseWriter, err rest_errors.RestErr) {
-	RespondJson(w, err.Status, err)
+	RespondJson(w, err.Status(), err)
 }
