@@ -23,7 +23,7 @@ func StartApplication() {
 		WriteTimeout: 500 * time.Millisecond,
 		ReadTimeout:  2 * time.Second,
 		IdleTimeout:  60 * time.Second,
-		Addr:         "127.0.0.1:8000",
+		Addr:         "127.0.0.1:8081",
 	}
 	if err := srv.ListenAndServe(); err != nil {
 		panic(err)
