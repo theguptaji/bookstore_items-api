@@ -3,17 +3,17 @@ package controllers
 import (
 	"encoding/json"
 	"github.com/gorilla/mux"
-	"github.com/theguptaji/bookstore_items-api/domain/queries"
+	"github.com/theguptaji/bookstore_items-api/src/domain/queries"
 	"io/ioutil"
 	"net/http"
 	"strings"
 
 	"github.com/theguptaji/bookstore_utils-go/rest_errors"
 
-	"github.com/theguptaji/bookstore_items-api/utils/http_utils"
+	"github.com/theguptaji/bookstore_items-api/src/utils/http_utils"
 
-	"github.com/theguptaji/bookstore_items-api/domain/items"
-	"github.com/theguptaji/bookstore_items-api/services"
+	"github.com/theguptaji/bookstore_items-api/src/domain/items"
+	"github.com/theguptaji/bookstore_items-api/src/services"
 	"github.com/theguptaji/bookstore_oauth-go/oauth"
 )
 

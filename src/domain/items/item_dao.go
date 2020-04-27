@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/theguptaji/bookstore_items-api/domain/queries"
+	"github.com/theguptaji/bookstore_items-api/src/domain/queries"
 	"strings"
 
-	"github.com/theguptaji/bookstore_items-api/clients/elasticsearch"
+	"github.com/theguptaji/bookstore_items-api/src/clients/elasticsearch"
 	"github.com/theguptaji/bookstore_utils-go/rest_errors"
 )
 

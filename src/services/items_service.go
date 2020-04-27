@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/theguptaji/bookstore_items-api/domain/items"
-	"github.com/theguptaji/bookstore_items-api/domain/queries"
+	"github.com/theguptaji/bookstore_items-api/src/domain/items"
+	"github.com/theguptaji/bookstore_items-api/src/domain/queries"
 	"github.com/theguptaji/bookstore_utils-go/rest_errors"
 )
 
