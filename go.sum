@@ -40,6 +40,8 @@ github.com/theguptaji/bookstore_oauth-go v0.0.0-20200424145006-e0a036d72371 h1:G
 github.com/theguptaji/bookstore_oauth-go v0.0.0-20200424145006-e0a036d72371/go.mod h1:NH8guaLIfKNIC3w5DnWFFdf7S/lgG1RY+NZmYsf7SD4=
 github.com/theguptaji/bookstore_utils-go v0.0.0-20200424134940-7f4f8498f60d h1:0pKiUPqCzsOxIAosYiMtoq//KBeR5OcmYfLrUIrm25o=
 github.com/theguptaji/bookstore_utils-go v0.0.0-20200424134940-7f4f8498f60d/go.mod h1:bQwptClZvBLp4UoUk8Y+8PK2+2GPxXcMNqczzJURins=
+github.com/theguptaji/bookstore_utils-go v0.0.0-20200427173004-75a2a40f3157 h1:6xOT0ABXv1G8Z3VOTO1ms4BY5nBQmBcL7O0FA5jZYzw=
+github.com/theguptaji/bookstore_utils-go v0.0.0-20200427173004-75a2a40f3157/go.mod h1:bQwptClZvBLp4UoUk8Y+8PK2+2GPxXcMNqczzJURins=
 go.uber.org/atomic v1.6.0 h1:Ezj3JGmsOnG1MoRWQkPBsKLe9DwWD9QeXzTRzzldNVk=
 go.uber.org/atomic v1.6.0/go.mod h1:sABNBOSYdrvTF6hTgEIbc7YasKWGhgEQZyfxyTvoXHQ=
 go.uber.org/multierr v1.5.0 h1:KCa4XfM8CWFCpxXRGok+Q0SS/0XBhMDbHHGABQLvD2A=

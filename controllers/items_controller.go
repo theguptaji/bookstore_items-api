@@ -31,7 +31,6 @@ type itemsController struct{}
 
 func (i *itemsController) Create(w http.ResponseWriter, r *http.Request) {
 	if err := oauth.AuthenticateRequest(r); err != nil {
-		// TODO : Fix the respond error function, sending no response
 		http_utils.RespondError(w, err)
 		return
 	}
@@ -62,7 +61,6 @@ func (i *itemsController) Create(w http.ResponseWriter, r *http.Request) {
 
 	result, createErr := services.ItemsService.Create(itemRequest)
 	if createErr != nil {
-		// TODO : Fix the respond error function, sending no response
 		http_utils.RespondError(w, createErr)
 		return
 	}

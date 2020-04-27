@@ -2,9 +2,8 @@ package http_utils
 
 import (
 	"encoding/json"
-	"net/http"
-
 	"github.com/theguptaji/bookstore_utils-go/rest_errors"
+	"net/http"
 )
 
 func RespondJson(w http.ResponseWriter, StatusCode int, body interface{}) {
